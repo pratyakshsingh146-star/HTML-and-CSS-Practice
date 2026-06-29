@@ -1,0 +1,6 @@
+p{
+    background: orange;color: rgb(5, 0, 0);border:5px groove black;
+    line-height: 50px; word-spacing: 2px;letter-spacing: 1px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+}

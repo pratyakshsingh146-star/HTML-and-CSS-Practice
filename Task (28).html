@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            body{
+                background:url(images/img1.jpg);
+                font-family: Arial, Helvetica, sans-serif;
+                background-size: cover;
+            }
+            #login{
+                margin: 150px auto;
+                min-height: 300px;
+                width: 500px;
+                background:rgba(0,0,0,0.4);
+                border-radius: 10px;
+                padding: 50px;
+                box-sizing: border-box;
+                transition: all 1s;
+                backdrop-filter: blur(3px);
+                color: white;
+            }
+            #heading{
+                text-align: center;
+                font-weight: 10px;
+                font-size: 20px;
+            }
+            .txt{
+                height: 45px;
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                border:none;
+                background: #f4f4f4;
+                padding-left: 15px;
+                box-sizing: border-box;
+            }
+            .btn{
+                height: 45px;
+                width: 100%;
+                background: #2962ff;
+                border: none;
+                border-radius: 15px;
+            }
+            ::placeholder{
+                color: #2962ff;
+            }
+            #login:hover{
+                background:rgba(255,255,255,0.4);
+                transition: all 1s;
+                color: black;
+                box-shadow: 0px 0px 1px 10px rgba(255,255,255,0.8),0px 0px 1px 20px rgba(255,255,255,0.6),0px 0px 1px 30px rgba(255,255,255,0.4),0px 0px 1px 40px rgba(255,255,255,0.2);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="Login">
+            <div id="heading" >LOGIN <b style="color: #2962ff;" >FORM</b></div>
+       <br>
+            User ID:<br><input type="text"class="txt" placeholder="Enter your name"><br>
+    Password:<br><input type="password" class="txt" placeholder="Enter password"><br>
+    <br>
+    <input type="submit" class="btn" value="Login">
+        
+        </div>
+    </body>
+</html>

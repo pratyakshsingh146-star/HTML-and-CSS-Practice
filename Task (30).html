@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <style>
+            body{
+                background: linear-gradient(rgba(0,0,0,.3)),url(images/img1.jpg);
+                background-size: cover;
+            }
+            #outer
+            {
+                min-height: 600px;
+                width: 1200px;
+                margin: 150px auto;
+            }
+            #left{
+                background: transparent;
+                min-height: 600px;
+                width: 700px;
+                float: left;
+                font-family: 'Times New Roman', Times, serifS;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 100px;
+                backdrop-filter: blur(3px);
+                box-sizing: border-box;
+            }
+            #right{
+                background: transparent;
+                min-height: 600px;
+                width: 500px;
+                float: left;
+                padding:50px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                backdrop-filter: blur(10px);
+                
+            }
+            .txt{
+                height: 55px;
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 20px ;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 1px solid black;
+                border-radius: 10px;
+                background: transparent;
+
+            }
+            .texta{
+                height: 100px;
+                width: 100%;
+                border: none;
+                border-radius: 10px;
+                padding: 20px;
+                background: transparent;
+            }
+            .btn{
+                height:55px;
+                width: 100%;
+                margin-top: 20px;
+                background:#2962ff;
+                border: none;
+                border-radius: 10px;
+            }
+            ::placeholder{
+                color:white;
+            }
+            .txt:hover,.texta:hover{
+                background: lightgray;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="left"> WELCOME TO TECHPILE TECHNOLOGY
+                <br>
+                <p style="font-size: 15px; color: white; font-family: 'Times New Roman', Times, serif; padding: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem numquam odio minus laboriosam architecto nostrum odit ex sit labore quae eligendi dolor deleniti modi officia, illum non a suscipit ab.</p>
+            </div>
+            <div id="right">
+                <input type="name"placeholder="name" class="txt"><br>
+                <input type="email"placeholder="Email" class="txt"><br>
+                <input type="number"placeholder="mobile no." class="txt"><br>
+                <input type="password"placeholder="password" class="txt"><br>
+                <textarea class="texta" placeholder="message.."></textarea>
+                <input type="submit"value="Save" class="btn"><br>
+            </div>
+        </div>
+    </body>
+</html>
